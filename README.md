@@ -1,15 +1,5 @@
-- I made this to automatically open zoom and join my online classes for me so i dont marked absent 
+**I made this to automatically open zoom and join my online classes for me so i dont marked absent**
 
-
-
-#### steps
-**After the gui opens**
-
--In the left-hand tree, click on Task Scheduler Library.
--In the center pane you'll see a list of all your tasks. 
--Scroll (or sort by Name) until you spot Zoom Auto Join.
-
-# Getting Started
 
 ## Setup
 
