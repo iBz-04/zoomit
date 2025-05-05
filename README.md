@@ -1,4 +1,4 @@
-**I made this to automatically open zoom and join my online classes for me so i dont marked absent**
+**I made this to automatically open zoom and join my online classes for me so i don't get marked as absent**
 
 
 ## Setup
