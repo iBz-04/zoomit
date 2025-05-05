@@ -2,20 +2,21 @@
 <Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <Triggers>
     <CalendarTrigger>
-      <ScheduleByWeekday>
+      <StartBoundary>2025-05-06T09:55:00</StartBoundary>
+      <Enabled>true</Enabled>
+      <SyncAcrossTimeZones>true</SyncAcrossTimeZones>
+      <ScheduleByWeek>
         <DaysOfWeek>
           <Tuesday/>
         </DaysOfWeek>
         <WeeksInterval>1</WeeksInterval>
-      </ScheduleByWeekday>
-      <StartBoundary>2025-05-06T09:55:00</StartBoundary>
-      <Enabled>true</Enabled>
+      </ScheduleByWeek>
     </CalendarTrigger>
   </Triggers>
   <Actions Context="Author">
     <Exec>
       <Command>powershell.exe</Command>
-      <Arguments>-NoLogo -WindowStyle Hidden -File "C:\path\to\zoom-auto-join\scripts\join_zoom.ps1"</Arguments>
+      <Arguments>-NoLogo -WindowStyle Hidden -File "C:\Users\RTX\Desktop\zoomit\scripts\join_zoom.ps1"</Arguments>
     </Exec>
   </Actions>
   <Settings><MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy></Settings>
